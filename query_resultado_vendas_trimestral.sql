@@ -11,7 +11,7 @@ DATEPART(QUARTER, CONVERT(DATE, [Data_da_Venda], 103)) AS Trimestre,
 YEAR(CONVERT(DATE, [Data_da_Venda], 103)) AS Ano,
 Categoria,
 SUM(CAST(REPLACE([Valor], 'R$ ', '') AS DECIMAL(10,2))) AS TotalVendas
-FROM dbo.db_teste
+FROM dbo.DB_Teste
 GROUP BY DATEPART(QUARTER, CONVERT(DATE, [Data_da_Venda], 103)),
 YEAR(CONVERT(DATE, [Data_da_Venda], 103)),
 Categoria
