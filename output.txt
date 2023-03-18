@@ -1,0 +1,165 @@
+O cliente com a venda de maior valor foi: Cliente 89 com o valor de R$ 24.970.500,0
+O cliente com a venda de menor valor foi: Cliente 120 com o valor de R$ 1.250,0
+
+Valor médio de Serviços: R$ 314.567,94
+Valor médio de Licenciamento: R$ 983.448,77
+Valor médio de Produtos: R$ 983.448,77
+
+    Cliente  Quantidade de Vendas
+  Cliente 5                   128
+  Cliente 8                    61
+  Cliente 4                    60
+ Cliente 10                    43
+  Cliente 3                    31
+ Cliente 13                    26
+ Cliente 26                    25
+  Cliente 2                    21
+ Cliente 14                    21
+ Cliente 30                    20
+ Cliente 16                    19
+  Cliente 9                    17
+ Cliente 52                    17
+ Cliente 31                    14
+ Cliente 43                    13
+ Cliente 24                    13
+ Cliente 12                    11
+ Cliente 50                    11
+  Cliente 7                    10
+ Cliente 71                     9
+ Cliente 37                     9
+ Cliente 44                     9
+ Cliente 23                     8
+ Cliente 34                     8
+ Cliente 75                     8
+ Cliente 68                     7
+ Cliente 76                     7
+ Cliente 42                     6
+ Cliente 21                     6
+ Cliente 94                     6
+ Cliente 82                     6
+Cliente 109                     5
+ Cliente 89                     5
+ Cliente 38                     5
+ Cliente 33                     4
+ Cliente 27                     4
+ Cliente 96                     4
+ Cliente 15                     4
+Cliente 116                     3
+ Cliente 64                     3
+ Cliente 81                     3
+ Cliente 32                     3
+ Cliente 17                     3
+ Cliente 67                     3
+ Cliente 59                     3
+ Cliente 40                     3
+Cliente 138                     3
+ Cliente 29                     3
+ Cliente 47                     3
+  Cliente 6                     2
+ Cliente 91                     2
+ Cliente 92                     2
+ Cliente 51                     2
+ Cliente 53                     2
+ Cliente 54                     2
+ Cliente 84                     2
+ Cliente 25                     2
+Cliente 111                     2
+Cliente 108                     2
+ Cliente 58                     2
+ Cliente 93                     2
+Cliente 126                     2
+Cliente 118                     2
+Cliente 101                     2
+ Cliente 79                     2
+ Cliente 78                     2
+ Cliente 77                     2
+Cliente 131                     2
+Cliente 124                     2
+Cliente 123                     2
+Cliente 136                     2
+ Cliente 73                     2
+Cliente 140                     2
+ Cliente 69                     2
+ Cliente 46                     2
+Cliente 145                     2
+ Cliente 66                     2
+Cliente 149                     2
+ Cliente 62                     2
+ Cliente 65                     2
+ Cliente 97                     1
+ Cliente 48                     1
+ Cliente 98                     1
+ Cliente 49                     1
+ Cliente 85                     1
+ Cliente 95                     1
+ Cliente 90                     1
+ Cliente 55                     1
+ Cliente 56                     1
+ Cliente 57                     1
+ Cliente 61                     1
+ Cliente 63                     1
+ Cliente 70                     1
+ Cliente 88                     1
+ Cliente 87                     1
+ Cliente 74                     1
+ Cliente 86                     1
+ Cliente 80                     1
+ Cliente 60                     1
+  Cliente 1                     1
+ Cliente 45                     1
+Cliente 137                     1
+Cliente 133                     1
+Cliente 132                     1
+Cliente 130                     1
+Cliente 129                     1
+Cliente 128                     1
+Cliente 127                     1
+Cliente 125                     1
+Cliente 122                     1
+Cliente 121                     1
+Cliente 120                     1
+Cliente 119                     1
+Cliente 117                     1
+Cliente 115                     1
+Cliente 114                     1
+Cliente 113                     1
+Cliente 112                     1
+Cliente 110                     1
+ Cliente 11                     1
+Cliente 107                     1
+Cliente 106                     1
+Cliente 105                     1
+Cliente 104                     1
+Cliente 103                     1
+Cliente 102                     1
+Cliente 100                     1
+Cliente 135                     1
+Cliente 139                     1
+ Cliente 41                     1
+Cliente 141                     1
+ Cliente 39                     1
+ Cliente 36                     1
+ Cliente 35                     1
+ Cliente 28                     1
+ Cliente 22                     1
+ Cliente 20                     1
+ Cliente 19                     1
+ Cliente 18                     1
+Cliente 160                     1
+Cliente 159                     1
+Cliente 158                     1
+Cliente 157                     1
+Cliente 156                     1
+Cliente 155                     1
+Cliente 154                     1
+Cliente 153                     1
+Cliente 152                     1
+Cliente 151                     1
+Cliente 150                     1
+Cliente 148                     1
+Cliente 147                     1
+Cliente 146                     1
+Cliente 144                     1
+Cliente 143                     1
+Cliente 142                     1
+ Cliente 99                     1
