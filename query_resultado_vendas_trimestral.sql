@@ -15,4 +15,3 @@ FROM dbo.DB_Teste
 GROUP BY DATEPART(QUARTER, CONVERT(DATE, [Data_da_Venda], 103)),
 YEAR(CONVERT(DATE, [Data_da_Venda], 103)),
 Categoria
-
