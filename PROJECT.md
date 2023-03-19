@@ -6,6 +6,7 @@ Esse arquivo tem como objetivo explicar como executar o projeto desenvolvido e a
 
 - **DB_Teste.csv**: arquivo contendo as informações fornecidas para realizar o desafio;
 - **DiagramaEntidadeRelacionamento.jpeg**: imagem do modelo de relacionamento, com as categorias apresentads nos campos do arquivo CSV;
+- **PROJECT.md**: arquivo de instruções para executar o projeto.
 - **README.md**: arquivo fornecido para instruir o participante como deve ser realizado o desafio e o que entregar;
 - **Total_de_vendas_trimestrais.jpeg**: gráfico do histórico trimestral de vendas;
 - **VendasPorVendedor.csv**: tabela auxiliar que sumariza o valor vendido por cada vendedor, ordenando do maior para o menor;
