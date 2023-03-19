@@ -22,13 +22,13 @@ Esse arquivo tem como objetivo explicar como executar o projeto desenvolvido e a
 
 ### Primeira parte
 
-Inicialmente, para resolução da primeira parte do desafio, foi criado um arquivo em linguagem Python com o nome csv_database_operations.py. Esse é o primeiro arquivo que deve ser executado.
+Inicialmente, para resolução da primeira parte do desafio, foi criado um arquivo em linguagem Python com o nome "csv_database_operations.py". Esse é o primeiro arquivo que deve ser executado.
 
 No começo desse arquivo, para auxiliar na resolução do desafio, foram importadas as bibliotecas pandas para trabalhar na análise dos dados e sys para salvar as saídas do terminal em um arquivo de texto.
 
-Na sequência, no arquivo Python criado, foi definida a função formata_para_string, que recebe como entrada um número float, arredonda esse valor e o formata como uma string, na forma de representação de moeda (reais). Dessa forma, caso a função, por exemplo, receba o valor 29964.48 como entrada, o retorno da função será o valor "R$ 29.964,48". Essa função é útil no decorrer do código para representar, de uma forma simplificada, os dados numéricos de uma forma mais amigável.
+Na sequência, no arquivo Python criado, foi definida a função "formata_para_string", que recebe como entrada um número float, arredonda esse valor e o formata como uma string, na forma de representação de moeda (reais). Dessa forma, caso a função, por exemplo, receba o valor "29964.48" como entrada, o retorno da função será o valor "R$ 29.964,48". Essa função é útil no decorrer do código para representar, de uma forma simplificada, os dados numéricos de uma forma mais amigável.
 
-Posteriormente, nesse mesmo arquivo Python, foi utilizado o método read_csv() para ler e armazenar a base de dados em formato csv em uma variável, que será um objeto da classe pandas.core.frame.DataFrame. Em seguida, para que se possa trabalhar com a coluna Valor na forma numérica, foram removidos os caracteres " R$ ", ".", substituído o "," por "." para as casas decimais e convertidos os valores dessa coluna para o tipo float.
+Posteriormente, nesse mesmo arquivo Python, foi utilizado o método "read_csv()" para ler e armazenar a base de dados em formato "csv" em uma variável, que será um objeto da classe "pandas.core.frame.DataFrame". Em seguida, para que se possa trabalhar com a coluna "Valor" na forma numérica, foram removidos os caracteres " R$ ", ".", substituído o "," por "." para as casas decimais e convertidos os valores dessa coluna para o tipo float.
 
 Seguindo no código, foi criado um novo dataframe com o nome "vendas_por_vendedor" para auxiliar na soma das vendas de cada vendedor. Em seguida, os valores do campo "Valor" foram convertidos para a forma de moeda e uma nova tabela foi salva em um arquivo "csv" com o nome "VendasPorVendedor.csv".
 
@@ -36,13 +36,13 @@ Depois, nas linhas de código desse primeiro arquivo a ser executado, foram salv
 
 No restante do código, sabendo que cada linha representa uma venda, contou-se o número de vezes que cada cliente apareceu para se obter as vendas por cliente.
 
-Posteriormente, modificou-se os parâmetros padrão da biblioteca pandas para exibir todas as linhas dos dataframes impressos no console e omitir os índices.
+Posteriormente, modificou-se os parâmetros padrão da biblioteca "pandas" para exibir todas as linhas dos dataframes impressos no console e omitir os índices.
 
-Por fim, utilizaram-se comandos para criar o arquivo de texto "output.txt" e salvar, em sequência, as saídas solicitadas para serem impressas. O arquivo "output.txt" contém as respostas para a impressão que identifica qual foi o cliente responsável pela venda com maior valor e com menor valor, valor médio por tipo de venda (Serviços, Licenciamento, Produtos) e o número de vendas realizadas por cliente.
+Por fim, foram utilizados comandos para criar o arquivo de texto "output.txt" e salvar, em sequência, as saídas solicitadas para serem impressas. O arquivo "output.txt" contém as respostas para a impressão que identifica qual foi o cliente responsável pela venda com maior valor e com menor valor, valor médio por tipo de venda (Serviços, Licenciamento, Produtos) e o número de vendas realizadas por cliente.
 
 ### Segunda parte
 
-Para a solução da segunda parte do desafio, foi criado o arquivo "DiagramaEntidadeRelacionamento.jpeg", que apresenta, na forma de imagem, o modelo de relacionamento com as categorias utilizadas em todos os campos do arquivo CSV.
+Para a solução da segunda parte do desafio, foi criado o arquivo "DiagramaEntidadeRelacionamento.jpeg", que apresenta, na forma de imagem, o modelo de relacionamento com as categorias utilizadas em todos os campos do arquivo "CSV".
 
 Posteriormente, utilizando o Microsoft SQL Server, a base de dados do arquivo "DB_Teste.csv" foi importada como tabela, utilizando o caractere ";" para identificar a separação das colunas.
 
@@ -50,6 +50,7 @@ Em seguida, na nova base de dados, foi criada a query "sales_customers_2020.sql"
 
 Além disso, foi criada a nova query "sales_team.sql" para listar a equipe de cada vendedor.
 
-Para a última parte do desafio, foi criada a query "query_resultado_vendas_trimestral.sql", que deve ser executada para criar uma nova tabela com as vendas trimestrais. Essa nova tabela deve ser exportada, no formato "csv", e está salva no repositório como o arquivo "VendasTrimestrais.csv".
+Para a última parte do desafio, foi criada a query "query_resultado_vendas_trimestral.sql", que deve ser executada para criar uma nova tabela com as vendas trimestrais. Essa nova tabela deve ser exportada, no formato "csv", e está salva no repositório com o nome "VendasTrimestrais.csv".
 
 Para finalizar o desafio, foi criado um segundo código em linguagem Python, com o nome "quarterly_sales_plot.py". Esse arquivo, ao ser executado, utiliza os dados da tabela de vendas trimestrais gerada anteriormente ("VendasTrimestrais.csv") para criar um gráfico de barras que avalia trimestralmente o resultado de vendas. Esse código também utiliza a biblioteca "pandas" para acessar e realizar operações nos dados tabelados e a biblioteca "matplotlib" para gerar o gráfico e configurar seus parâmetros visuais. Ao executar esse arquivo, é gerado o gráfico de análise trimestral, identificado no diretório como o arquivo "Total_de_vendas_trimestrais.jpeg".
+
