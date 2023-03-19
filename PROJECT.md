@@ -30,7 +30,7 @@ Na sequência, no arquivo Python criado, foi definida a função "formata_para_s
 
 Posteriormente, nesse mesmo arquivo Python, foi utilizado o método "read_csv()" para ler e armazenar a base de dados em formato "csv" em uma variável, que será um objeto da classe "pandas.core.frame.DataFrame". Em seguida, para que se possa trabalhar com a coluna "Valor" na forma numérica, foram removidos os caracteres " R$ ", ".", substituído o "," por "." para as casas decimais e convertidos os valores dessa coluna para o tipo float.
 
-Seguindo no código, foi criado um novo dataframe com o nome "vendas_por_vendedor" para auxiliar na soma das vendas de cada vendedor. Em seguida, os valores do campo "Valor" foram convertidos para a forma de moeda e uma nova tabela foi salva em um arquivo "csv" com o nome "VendasPorVendedor.csv".
+Seguindo no código, foi criado um novo dataframe com o nome "vendas_por_vendedor" para auxiliar na soma das vendas de cada vendedor. Em seguida, os valores do campo "Valor" foram convertidos para a forma de moeda e uma nova tabela foi salva em um arquivo "csv" com o nome "VendasPorVendedor.csv". Finalizando a etapa da primeira parte do desafio, ou seja, de construir uma tabela auxiliar que sumariza o valor vendido por cada vendedor, ordenando do maior para o menor;
 
 Depois, nas linhas de código desse primeiro arquivo a ser executado, foram salvos em variáveis o cliente com a venda de maior valor, o resultado do maior valor de venda, o cliente com a venda de menor valor e o resultado do menor valor de venda. Em seguida, também foram salvos em variáveis o valor médio para cada tipo de venda (Serviços, Licenciamento, Produtos).
 
